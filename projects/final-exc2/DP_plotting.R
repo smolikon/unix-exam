@@ -1,6 +1,6 @@
 library(tidyverse)
 setwd("~/projects/final-exc2")
-read_tsv(file = 'data/col-final.tsv') -> df
+read_tsv(file = 'data/col-final.tsv', show_col_types = FALSE) -> df
 
 
 ##DP distribution in genome
